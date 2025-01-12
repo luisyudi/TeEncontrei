@@ -26,12 +26,3 @@ Foram utilizadas as ferramentas Arduino IDE para programação dos ESP's, e o MI
 
 A comunicação entre os ESP ocorrem via pacotes do módulo LoRa, enviados constantemente pelo Tênis. A bolsa recebe os pacotes, e baseado no RSSI, calcula uma distância em metros e envia via Bluetooth para o aplicativo. O aplicativo também podem enviar mensagens à bolsa. 
 Quando necessário, a bolsa envia mensagens de volta para o tênis, indicando o estado em que ela deve ficar.
-
-## Código Aplicativo 
-
-Abaixo estão os blocos de comando utilizados na criação do aplicativo mobile. O .apk também está disponível no repositório.
-
-![Initialize](/img/Initialize.jpg)
-![Timer](/img/Timer.jpg)
-![Buttons](/img/Buttons.jpg)
-
