@@ -24,5 +24,20 @@ Foram utilizadas as ferramentas Arduino IDE para programação dos ESP's, e o MI
 
 ![modelo](/img/modelo.png)
 
-A comunicação entre os ESP ocorrem via pacotes do módulo LoRa, enviados constantemente pelo Tênis. A bolsa recebe os pacotes, e baseado no RSSI, calcula uma distância em metros e envia via Bluetooth para o aplicativo. O aplicativo também podem enviar mensagens à bolsa. 
+A comunicação entre os ESP ocorrem via pacotes do módulo LoRa, enviados constantemente pelo Tênis. A bolsa recebe os pacotes, e baseado no RSSI, calcula uma distância em metros e envia via Bluetooth para o aplicativo. O aplicativo também podem enviar mensagens à bolsa.
+A bolsa e o tênis começam a piscar os leds, indicando que estão distantes.
 Quando necessário, a bolsa envia mensagens de volta para o tênis, indicando o estado em que ela deve ficar.
+
+## Wearables
+
+### Bolsa
+
+![Bolsa](/img/Bolsa1.jpeg)
+![Bolsa](/img/Bolsa2.jpeg)
+![Bolsa](/img/Bolsa3.jpeg)
+
+### Tênis
+
+![Bolsa](/img/Tenis1.jpeg)
+![Bolsa](/img/Tenis2.jpeg)
+
